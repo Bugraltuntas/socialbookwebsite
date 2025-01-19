@@ -1,8 +1,8 @@
 /* General Styles */
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #ffffff; /* Beyaz arka plan */
-    color: #333333; /* Daha koyu metin rengi */
+    background-color: #ffffff; 
+    color: #333333; 
     margin: 0;
     padding: 0;
 }
@@ -13,20 +13,20 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background: #f0f0f0; /* Açık gri navbar */
+    background: #f0f0f0; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Logo Stil */
 .navbar h1 {
-    font-family: 'Playfair Display', serif; /* Daha profesyonel ve şık bir font */
+    font-family: 'Playfair Display', serif; 
     font-size: 36px;
-    color: #2c3e50; /* Koyu renk */
-    text-transform: none; /* Küçük harf kullanımı */
-    font-weight: 700; /* Kalın yazı */
-    letter-spacing: 1px; /* Harfler arası mesafe */
+    color: #2c3e50; 
+    text-transform: none; 
+    font-weight: 700; 
+    letter-spacing: 1px; 
     margin: 0;
-    text-shadow: none; /* Gölgeleri kaldırdık */
+    text-shadow: none; 
 }
 
 /* Navbar içeriği */
@@ -40,34 +40,34 @@ body {
 /* Navbar Linkleri */
 .navbar a {
     font-size: 18px;
-    font-weight: 500; /* Orta kalınlıkta yazı */
-    color: #2c3e50; /* Yazı rengi */
-    text-decoration: none; /* Alt çizgiyi kaldır */
+    font-weight: 500; 
+    color: #2c3e50; 
+    text-decoration: none;
     padding: 5px 10px;
     transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-    color: #70b3b2; /* Hoverda renk değişimi */
+    color: #70b3b2; 
 }
 /* Menü Linkleri */
 .nav-links {
     display: flex;
-    gap: 25px; /* Menü öğeleri arasında mesafe */
-    font-size: 18px; /* Menü yazı boyutu */
+    gap: 25px; 
+    font-size: 18px; 
     font-weight: 500;
     list-style: none;
     margin: 0;
 }
 
 .nav-links a {
-    color: #2c3e50; /* Koyu yazı rengi */
-    text-decoration: none; /* Alt çizgi yok */
-    transition: color 0.3s ease; /* Hoverda renk geçişi */
+    color: #2c3e50;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
 }
 
 .nav-links a:hover {
-    color: #70b3b2; /* Hoverda renk değişimi */
+    color: #70b3b2; 
 }
 
 
@@ -81,28 +81,28 @@ body {
 .search-bar {
     padding: 10px;
     border-radius: 25px;
-    border: 1px solid #d1d1d1; /* Açık gri sınır */
+    border: 1px solid #d1d1d1; 
     outline: none;
     width: 250px;
     transition: 0.3s;
 }
 
 .search-bar:focus {
-    border-color: #a3a3a3; /* Fokusa girince renk değişimi */
+    border-color: #a3a3a3; 
     box-shadow: 0 0 5px rgba(163, 163, 163, 0.5);
 }
 
 .search-button {
     background-color: transparent;
     border: none;
-    font-size: 24px;  /* İkon boyutunu istediğiniz gibi ayarlayabilirsiniz */
-    color: #4d664e;  /* İkon rengini değiştirebilirsiniz */
+    font-size: 24px;  
+    color: #4d664e; 
     cursor: pointer;
     transition: color 0.3s;
 }
 
 .search-button:hover {
-    color: #2e5930;  /* Hover efekti ile renk değiştirme */
+    color: #2e5930; 
 }
 
 
@@ -110,47 +110,47 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Yazıyı sola yaslamak için */
-    height: 100vh; /* Tam ekran yüksekliği */
+    justify-content: flex-start; 
+    height: 100vh; 
     background: url('images123/resim4.jpg') center/cover no-repeat;
     text-align: left;
     color: white;
-    padding-left: 50px; /* Soldan biraz boşluk bırakmak */
+    padding-left: 50px;
 }
 
 .hero-content h1 {
-    font-size: 66px; /* Başlığı biraz küçültüyoruz */
+    font-size: 66px; 
     font-weight: bold;
-    margin-bottom: 18px; /* Başlık altındaki boşluğu biraz azaltıyoruz */
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Beyaz yazının etrafına hafif gölge */
+    margin-bottom: 18px; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); 
     transition: transform 0.3s ease;
 }
 
 .hero-content h1:hover {
-    transform: translateX(10px); /* Üzerine gelince sağa kayma animasyonu */
+    transform: translateX(10px); 
 }
 
 .hero-content p {
-    font-size: 24px; /* Paragrafı biraz küçültüyoruz */
-    margin-bottom: 24px; /* Paragraf altındaki boşluğu biraz azaltıyoruz */
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Beyaz yazının etrafına hafif gölge */
+    font-size: 24px; 
+    margin-bottom: 24px; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); 
 }
 
 .button {
-    background: #636363; /* Koyu gri tonları */
+    background: #636363; 
     color: white;
-    padding: 16px 32px; /* Buton boyutunu biraz küçültüyoruz */
+    padding: 16px 32px; 
     border: none;
-    border-radius: 50px; /* Yuvarlak buton şekli */
-    font-size: 20px; /* Buton yazısını biraz küçültüyoruz */
+    border-radius: 50px; 
+    font-size: 20px; 
     cursor: pointer;
     transition: 0.3s;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Hafif gölge efekti */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
 
 .button:hover {
-    background: #4f4f4f; /* Hover sırasında daha koyu gri */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Hover sırasında daha belirgin gölge */
+    background: #4f4f4f; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
 }
 
 
@@ -165,7 +165,7 @@ body {
     color: #2e5930;
     margin: 0;
     text-transform: uppercase;
-    margin-left: 20px;  /* Başlığı biraz sağa kaydırdık */
+    margin-left: 20px; 
 }
 
 #clubs p {
@@ -179,7 +179,7 @@ body {
     border-radius: 12px;
     max-width: 900px;
     display: inline-block;
-    text-align: left;  /* Alt başlık da sola hizalanacak */
+    text-align: left; 
 }
 
 
@@ -187,7 +187,7 @@ body {
 
 
 .club-grid {
-    background: #cfe5c1; /* Kartları belirginleştirmek için beyaz arka plan */
+    background: #cfe5c1; 
     padding: 20px;
     border-radius: 10px;
     display: grid;
@@ -198,10 +198,10 @@ body {
 
 .club-card {
     position: relative;
-    background: #ffffff; /* Kart arka planı beyaz */
+    background: #ffffff; 
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Hafif gölge */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
     transition: 0.3s;
     text-align: center;
     padding-bottom: 15px;
@@ -209,12 +209,12 @@ body {
 
 .club-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Hover efekti */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
 }
 
 .club-card img {
     width: 100%;
-    height: 180px; /* Resmi biraz küçülttüm */
+    height: 180px; 
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -224,7 +224,7 @@ body {
     margin: 10px 0;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    color: #2e5930; /* Doğal yeşil başlık */
+    color: #2e5930; 
     position: relative;
     z-index: 2;
 }
@@ -240,14 +240,14 @@ body {
 
 .club-card .card-content {
     position: absolute;
-    top: 50%; /* Yerin ortasında */
+    top: 50%; 
     left: 50%;
-    transform: translate(-50%, -50%); /* Tam ortada yerleşim */
+    transform: translate(-50%, -50%); 
     width: 100%;
     color: white;
     padding: 15px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Yazıya gölge efekti */
-    background: rgba(0, 0, 0, 0.5); /* Arka planı koyu yapalım */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5); 
     z-index: 1;
 }
 
@@ -370,8 +370,8 @@ body {
     opacity: 1;
     display: block;
     height: auto;
-    max-height: 1000px; /* Yüksekliği arttırarak metni genişletin */
-    transition: max-height 0.5s ease-out; /* Yavaşça açılmasını sağlar */
+    max-height: 1000px; 
+    transition: max-height 0.5s ease-out; 
 }
 
 .book-of-month-card:hover {
@@ -404,8 +404,7 @@ body {
     margin: 10px auto;
 }
 /* User Reviews Section */
-/* User Reviews Section */
-/* User Reviews Section */
+
 .user-reviews {
     margin-top: 50px;
     font-family: 'Arial', sans-serif;
@@ -427,15 +426,15 @@ body {
 }
 
 /* Individual Review Card */
-/* User Reviews Section */
+
 .user-reviews {
     margin-top: 50px;
     font-family: 'Arial', sans-serif;
     color: #333;
-    background-color: #ffe6f0; /* Tatlı bir pastel pembe */
-    padding: 50px 20px; /* Arka plana biraz boşluk ekleyelim */
+    background-color: #ffe6f0; 
+    padding: 50px 20px; 
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hafif gölgelendirme */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
 /* Header for User Reviews */
@@ -455,9 +454,9 @@ body {
 
 /* Individual Review Card */
 .review {
-    background-color: #ffffff; /* Beyaz arka plan */
+    background-color: #ffffff;
     padding: 20px;
-    flex: 1; /* Allow reviews to take equal space */
+    flex: 1; 
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -465,16 +464,16 @@ body {
     justify-content: space-between;
 }
 
-/* Review Header */
+
 /* User Reviews Section */
 .user-reviews {
     margin-top: 50px;
     font-family: 'Arial', sans-serif;
     color: #333;
-    background-color: #f7f7f7; /* Hafif gri tonunda sade arka plan */
-    padding: 50px 20px; /* Arka plana biraz boşluk ekleyelim */
+    background-color: #f7f7f7; 
+    padding: 50px 20px; 
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hafif gölgelendirme */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
 /* Header for User Reviews */
@@ -494,9 +493,9 @@ body {
 
 /* Individual Review Card */
 .review {
-    background-color: #ffffff; /* Beyaz arka plan */
+    background-color: #ffffff; 
     padding: 20px;
-    flex: 1; /* Allow reviews to take equal space */
+    flex: 1; 
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -504,17 +503,16 @@ body {
     justify-content: space-between;
 }
 
-/* Review Header */
-/* User Reviews Section */
+
 /* User Reviews Section */
 .user-reviews {
     margin-top: 50px;
     font-family: 'Arial', sans-serif;
     color: #333;
-    background-color: #f0f0f0; /* Bir tık daha açık pastel gri */
-    padding: 50px 20px; /* Arka plana biraz boşluk ekleyelim */
+    background-color: #f0f0f0; 
+    padding: 50px 20px; 
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hafif gölgelendirme */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
 /* Header for User Reviews */
@@ -534,9 +532,9 @@ body {
 
 /* Individual Review Card */
 .review {
-    background-color: #ffffff; /* Beyaz arka plan */
+    background-color: #ffffff; 
     padding: 20px;
-    flex: 1; /* Allow reviews to take equal space */
+    flex: 1; 
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -558,18 +556,18 @@ body {
 }
 
 .stars i {
-    color: #f4b400; /* Altın rengi yıldızlar */
+    color: #f4b400; 
     margin-right: 5px;
 }
 
-/* Review Text */
+
 .review-text {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
 }
 
-/* Adding hover effect for review card */
+
 .review:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
